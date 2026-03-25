@@ -221,13 +221,3 @@ export default function ResetPasswordPage() {
     </div>
   )
 }
-```
-
----
-
-**One thing you need to do in Supabase dashboard:**
-
-Go to **Supabase → Authentication → URL Configuration** and add this to your redirect URLs:
-```
-http://localhost:3000/auth/reset-password
-https://yourdomain.com/auth/reset-password
