@@ -15,7 +15,7 @@ import { Label } from '@/components/ui/label'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { BarChart3, Eye, EyeOff } from 'lucide-react'
-import { evaluatePassword, isPasswordAcceptable } from '@/lib/passwordstrength'
+import { evaluatePassword, isPasswordAcceptable } from '@/lib/passwordStrength'
 
 // ── Strength bar config ────────────────────────────────────────────────────
 const STRENGTH_CONFIG = {
